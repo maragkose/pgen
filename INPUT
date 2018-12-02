@@ -1,0 +1,8 @@
+struct header {
+	uint8 command;
+};
+struct myStruct {
+header hdr;
+uint8 member1;
+uint8 member2;
+};
